@@ -1,6 +1,6 @@
 module.exports = {
   base: "/",
-  title: "Deep",
+  title: "Project Deep",
   theme: "@vuepress/theme-blog",
   description: "",
   head: [
@@ -25,7 +25,7 @@ module.exports = {
     ["meta", { name: "twitter:domain", content: "projectdeep.vercel.app" }],
     ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["meta", { name: "twitter:image:src", content: "/images/cover.png" }],
-    ["meta", { name: "twitter:image:alt", content: "mrepol742 @ blog cover" }],
+    ["meta", { name: "twitter:image:alt", content: "Deep cover" }],
     ["meta", { name: "twitter:description", content: "" }],
 
     // Open Graph
@@ -38,10 +38,10 @@ module.exports = {
       },
     ],
     // ['meta', { property: 'og:url', content: 'https://mrepol742.github.io/blog' }],
-    ["meta", { property: "og:site_name", content: "@mrepol742 / blog" }],
+    ["meta", { property: "og:site_name", content: "Project Deep" }],
     ["meta", { property: "og:description", content: "" }],
     ["meta", { property: "og:image", content: "/images/cover.png" }],
-    ["meta", { property: "og:image:alt", content: "mrepol742 @ blog cover" }],
+    ["meta", { property: "og:image:alt", content: "Deep cover" }],
 
     // Google Adsense
     [
@@ -85,19 +85,12 @@ module.exports = {
     ["meta", { "http-equiv": "X-UA-Compatible", content: "IE=edge" }],
     ["meta", { charset: "utf-8" }],
     ["meta", { name: "hostname", content: "projectdeep.vercel.app" }],
-    [
-      "meta",
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-    ],
     ["meta", { name: "theme-color", content: "#4285f4" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
       "meta",
       { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
-
-    ["meta", { name: "hostname", content: "projectdeep.vercel.app" }],
-    ["link", { rel: "canonical", href: "https://projectdeep.vercel.app" }],
   ],
   themeConfig: {
     dateFormat: "ddd MMMM D YYYY",
@@ -158,7 +151,7 @@ module.exports = {
         directories: [
           {
             id: "post",
-            title: "Home",
+            title: "Posts",
             dirname: "_posts",
             path: "/",
             itemPermalink: "/deep/:slug",
